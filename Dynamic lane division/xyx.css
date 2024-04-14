@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+}
+h2{
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+    color: red;
+}
+
+li{
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: lightgray;
+    list-style: none;
+    text-align: center;
+}
+span{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.textSection{
+    margin-top: 60px;
+}
